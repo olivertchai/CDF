@@ -1,0 +1,74 @@
+<header class="bg-[#2A2A2A] border-gray-200 ">
+    <div class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl p-4">
+
+        <a href="" class="flex items-center space-x-3 rtl:space-x-reverse">
+            <div>
+                <img src="assets/img/logo.png" class="h-8" alt="Flowbite Logo" />
+            </div>
+
+            <div>
+                <span class="self-center text-lg font-semibold whitespace-nowrap ">Roll The Credits</span>
+                <p class="text-sm">Que a crítica esteja com você !</p>
+            </div>
+        </a>
+
+
+        
+            <div class="max-w-screen-xl px-4 py-3 mx-auto">
+                <div id="main" class="flex items-center ">
+                    
+                    <ul id="menu" class="flex flex-row space-x-8 rtl:space-x-reverse sm:text-base">
+                        <li>
+                            <a href="#" class=" hover:underline" aria-current="page">Home</a>
+                        </li>
+                        <li>
+                            <a href="#" class=" hover:underline">Company</a>
+                        </li>
+                        <li>
+                            <a href="#" class=" hover:underline">Team</a>
+                        </li>
+                        <li>
+                            <a href="#" class=" hover:underline">Features</a>
+                        </li>
+                    </ul>
+
+                                        
+                    <div id="smlogin" class="flex gap-4 rtl:space-x-reverse">
+                        <button type="button" class="btn rounded bg-[#D4A55D] px-4 py-2 text-sm font-semibold hover:underline">Login</button>
+                    </div>
+
+                    <div class="flex justify-between ">
+                        <div id="smperfil" class=" space-x-6 rtl:space-x-reverse">
+                            <button type="button" class="btn rounded bg-[#D4A55D] px-4 py-2 text-sm font-semibold hover:underline">Perfil</button>
+                        </div>
+
+                        <div id="smlogout" class=" space-x-6 rtl:space-x-reverse">
+                            <button type="button" class="btn rounded bg-[#8C2F39] px-4 py-2 text-sm font-semibold hover:underline">Logout</button>
+                        </div>
+                    </div>
+
+                    <div id="btn-mobile" class="flex items-end py-4 space-x-6 rtl:space-x-reverse">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-10">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                        </svg>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div id="mdlogin" class="flex items-center space-x-6 rtl:space-x-reverse">
+                <button type="button" class="btn rounded bg-[#D4A55D] px-4 py-2 text-sm font-semibold hover:underline">Login</button>
+            </div>
+            
+            <div class="flex justify-between ">
+                <div id="mdperfil" class=" space-x-6 rtl:space-x-reverse">
+                    <button type="button" class="btn rounded bg-[#D4A55D] px-4 py-2 text-sm font-semibold hover:underline">Perfil</button>
+                </div>
+
+                <div id="mdlogout" class=" space-x-6 rtl:space-x-reverse">
+                    <button type="button" class="btn rounded bg-[#8C2F39] px-4 py-2 text-sm font-semibold hover:underline">Logout</button>
+                </div>
+            </div>
+    </div>
+
+</header>
