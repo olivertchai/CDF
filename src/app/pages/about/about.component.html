@@ -1,12 +1,19 @@
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+</head>
+
+<app-navbar></app-navbar>
+
 <div class="min-h-screen bg-[#1A1A1A] py-12 px-4 sm:px-6 lg:px-8">
       <div class="max-w-4xl mx-auto">
-        <h1 class="text-3xl md:text-4xl font-bold text-[#ffffff] mb-8 text-center">Sobre Roll The Credits</h1>
+        <h1 class="text-2xl md:text-4xl font-bold mb-8 text-center hover:underline">Sobre Roll The Credits</h1>
         
         <div class="bg-[#2A2A2A] rounded-lg p-8 mb-12">
           <div class="mb-8 text-center">
             <img src="assets/img/logo.png" alt="Roll The Credits" class="h-20 w-auto mx-auto mb-4">
-            <h2 class="text-2xl font-bold text-primary-gold">"Que a crítica esteja com você!"</h2>
-            <p class="text-[#ffffff] mt-2 italic">May the criticism be with you!</p>
+            <h2 class="text-2xl font-bold text-primary-gold italic">"Que a crítica esteja com você!"</h2>
           </div>
           
           <div class="space-y-6 text-[#ffffff]">
@@ -39,25 +46,25 @@
             </p>
             <div class="mt-4 space-y-2">
               <div class="flex items-center">
-                <div class="bg-primary-gold text-primary-dark px-2 py-1 rounded font-bold text-sm w-16 text-center">
+                <div class="text-[#000000] px-3 py-1 rounded font-bold text-sm w-16 text-center bg-[#DBDBD8]">
                   90%+
                 </div>
-                <span class="ml-3 text-[#ffffff]">Imperdível</span>
+                <span class="ml-3 ">Imperdível</span>
               </div>
-              <div class="flex items-center">
-                <div class="bg-primary-gold text-primary-dark px-2 py-1 rounded font-bold text-sm w-16 text-center">
+              <div class="flex items-center ">
+                <div class="text-[#000000] px-3 py-1 rounded font-bold text-sm w-16 text-center bg-[#DBDBD8]">
                   75-89%
                 </div>
                 <span class="ml-3 text-[#ffffff]">Ótimo</span>
               </div>
-              <div class="flex items-center">
-                <div class="bg-primary-red text-[#ffffff] px-2 py-1 rounded font-bold text-sm w-16 text-center">
+              <div class="flex items-center ">
+                <div class="bg-primary-red text-[#ffffff] px-3 py-2 rounded font-bold text-sm w-16 text-center bg-[#8C2F39]">
                   60-74%
                 </div>
                 <span class="ml-3 text-[#ffffff]">Bom</span>
               </div>
               <div class="flex items-center">
-                <div class="bg-primary-gray text-[#ffffff] px-2 py-1 rounded font-bold text-sm w-16 text-center">
+                <div class="bg-primary-gray text-[#ffffff] px-3 py-1 rounded font-bold text-sm w-16 text-center bg-[#4C4C4C]">
                   < 60%
                 </div>
                 <span class="ml-3 text-[#ffffff]">Pular</span>
@@ -73,25 +80,25 @@
             </p>
             <div class="mt-4 space-y-2">
               <div class="flex items-center">
-                <div class="bg-primary-gold text-primary-dark px-2 py-1 rounded font-bold text-sm w-16 text-center">
+                <div class=" text-{#000000} px-3 py-2 rounded font-bold text-sm w-16 text-center bg-[#DBDBD8]">
                   90%+
                 </div>
                 <span class="ml-3 text-[#ffffff]">Adoro</span>
               </div>
               <div class="flex items-center">
-                <div class="bg-primary-gold text-primary-dark px-2 py-1 rounded font-bold text-sm w-16 text-center">
+                <div class=" text-{#000000} px-3 py-2 rounded font-bold text-sm w-16 text-center bg-[#DBDBD8]">
                   75-89%
                 </div>
                 <span class="ml-3 text-[#ffffff]">Curtiu</span>
               </div>
               <div class="flex items-center">
-                <div class="bg-primary-red text-[#ffffff] px-2 py-1 rounded font-bold text-sm w-16 text-center">
+                <div class="bg-primary-red text-[#ffffff] px-3 py-2 rounded font-bold text-sm w-16 text-center bg-[#8C2F39]">
                   60-74%
                 </div>
                 <span class="ml-3 text-[#ffffff]">Misturado</span>
               </div>
               <div class="flex items-center">
-                <div class="bg-primary-gray text-[#ffffff] px-2 py-1 rounded font-bold text-sm w-16 text-center">
+                <div class="bg-primary-gray text-[#ffffff] px-3 py-3 rounded font-bold text-sm w-16 text-center bg-[#4C4C4C]">
                   < 60%
                 </div>
                 <span class="ml-3 text-[#ffffff]">Não gostei</span>
@@ -107,7 +114,9 @@
             Pronto para participar da conversa? Crie uma conta para avaliar filmes, escrever críticas
             e se conectar com outros cinéfilos.
           </p>
-          <a routerLink="/login" class="btn-primary inline-block">Crie uma conta</a>
+          <a href="login" routerLink="login" class="btn bg-[#8C2F39] inline-block rounded-md px-4 py-2 font-bold">Crie uma conta</a>
         </div>
       </div>
     </div>
+
+<app-footer></app-footer>

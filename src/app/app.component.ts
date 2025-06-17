@@ -8,6 +8,7 @@ import { LoginComponent } from "./pages/login/login.component";
 import { RegisterComponent } from "./pages/register/register.component";
 import { AboutComponent } from "./pages/about/about.component";
 import { HomeComponent } from "../app/pages/home/home.component";
+import { ProfileComponent } from "../app/pages/profile/profile.component";
 
 @Component({
   selector: 'app-root', 
@@ -19,7 +20,8 @@ import { HomeComponent } from "../app/pages/home/home.component";
            LoginComponent,
            RegisterComponent, 
            AboutComponent,
-           HomeComponent
+           HomeComponent,
+           ProfileComponent,
           ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',
