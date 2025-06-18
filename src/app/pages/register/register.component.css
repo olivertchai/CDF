@@ -3,3 +3,6 @@ span,h2,label,a{
   font-family: "Playfair Display", serif;
 }
 
+.ng-invalid.ng-touched:not(form){
+    border: 1px solid red;
+}
